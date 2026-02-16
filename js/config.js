@@ -11,20 +11,20 @@
 const SCOUTING_CONFIG = {
     // Google Apps Script URL (ends with /exec)
     // Get this from: Google Sheet → Extensions → Apps Script → Deploy → Web app
-    WEBHOOK_URL: "https://script.google.com/macros/s/AKfycbyqD8Nwba8iaF2ES_iGSqvuWsIAkwtzUBxvzyTBMkB49yXy9ZtWrxnt3xlQLXFp5L4-/exec",
+    WEBHOOK_URL: "your-apps-script-webhook-url-here",
 
     // The Blue Alliance API key
     // Get this from: thebluealliance.com/account → Read API Keys
-    TBA_API_KEY: "QbQkb0gqMlzea1xJM9Mo81lCIEFeHcHduBAj4X2M2SJZI7d7rhxXpHepMhseNOdZ",
+    TBA_API_KEY: "your-tba-api-key-here",
 
     // Event code (find at thebluealliance.com — last part of event URL)
     // Example: "2026wiapp" = 2026 Appleton District
-    EVENT_KEY: "2026wiapp",
+    EVENT_KEY: "your-event-key-here",
 
     // Set to false to disable team loading from TBA
     ENABLE_TEAM_LOADING: true,
 
     // Secret code required to access scouting (client-side gate)
     // The real security is server-side in Apps Script (ALLOWED_CODES)
-    SECRET_CODE: "atlas"
+    SECRET_CODE: "your-secret-code-here"
 };
